@@ -16,7 +16,7 @@ window.SITE_CONFIG = {
   // Netlify에 올리면 '/.netlify/functions/consult', Vercel이면 '/api/consult'.
   consultEndpoint: '/api/consult',
   // 알림톡이 아직 준비되지 않았을 때(또는 전송 실패 시) 화면에 바로 띄워 줄 구글 상담신청서 주소
-  googleFormUrl: 'https://docs.google.com/forms/d/e/FORM_ID/viewform',
+  googleFormUrl: 'https://forms.gle/hFZXs2XRSkmnmSZY6',
 
   /* 랜딩 페이지 버튼 주소 (비워 두면 '준비 중'으로 안내됩니다) */
   blogUrl: 'https://blog.naver.com/promise6013',              // 예: 'https://blog.naver.com/promise-a'

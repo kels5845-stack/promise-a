@@ -163,13 +163,13 @@ section{padding:58px 0;}
   border-bottom:1px solid var(--rule-2);
 }
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:68px;}
-.logo{display:flex;align-items:center;gap:11px;text-decoration:none;min-height:48px;}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none;min-height:48px;flex:0 0 auto;}
 .logo-mark{
   flex:0 0 auto;width:40px;height:40px;border-radius:10px;display:block;
 }
 .logo-text{display:flex;flex-direction:column;line-height:1.25;}
-.logo-name{font-family:var(--serif);font-weight:700;font-size:19px;color:var(--ink);letter-spacing:-.01em;}
-.logo-sub{font-size:11.5px;font-weight:600;color:var(--ink-3);letter-spacing:.01em;}
+.logo-name{font-family:var(--serif);font-weight:700;font-size:19px;color:var(--ink);letter-spacing:-.01em;white-space:nowrap;}
+.logo-sub{font-size:11.5px;font-weight:600;color:var(--ink-3);letter-spacing:.01em;white-space:nowrap;}
 
 .nav-toggle{
   display:inline-flex;align-items:center;justify-content:center;
@@ -447,6 +447,47 @@ table.price tbody tr:last-child th,table.price tbody tr:last-child td{border-bot
 .stage-row span{display:block;font-size:14px;color:var(--ink-3);line-height:1.5;}
 .photo figcaption{padding:13px 17px;font-size:14.5px;font-weight:600;color:var(--ink-2);}
 
+/* ── 수업 맛보기 영상 ───────────────────────────── */
+.video-grid{display:grid;gap:22px;grid-template-columns:1fr;}
+@media (min-width:760px){.video-grid{grid-template-columns:1fr 1fr;}}
+.video-card{
+  background:var(--paper);border:1px solid var(--rule);border-radius:var(--r);
+  overflow:hidden;display:flex;flex-direction:column;
+}
+/* 썸네일을 먼저 보여 주고, 누를 때 재생기를 띄웁니다 (페이지가 가벼워집니다) */
+.video-frame{
+  position:relative;width:100%;aspect-ratio:16/9;max-width:100%;
+  background:var(--navy-deep);border:0;padding:0;margin:0;display:block;
+  cursor:pointer;overflow:hidden;
+}
+.video-frame img{width:100%;height:100%;object-fit:cover;display:block;border:0;}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.video-frame::after{
+  content:'';position:absolute;inset:0;background:rgba(10,20,36,.28);
+  transition:background .18s;pointer-events:none;
+}
+.video-frame:hover::after{background:rgba(10,20,36,.12);}
+.video-frame.is-playing::after{display:none;}
+.video-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:66px;height:66px;border-radius:50%;
+  background:var(--orange-deep);border:2px solid rgba(255,255,255,.85);
+  display:grid;place-items:center;pointer-events:none;
+  box-shadow:0 10px 26px -8px rgba(0,0,0,.6);transition:transform .18s;
+}
+.video-frame:hover .video-play{transform:translate(-50%,-50%) scale(1.07);}
+.video-play::before{
+  content:'';width:0;height:0;margin-left:5px;
+  border-left:19px solid #fff;border-top:12px solid transparent;border-bottom:12px solid transparent;
+}
+.video-frame:focus-visible{outline:3px solid var(--orange);outline-offset:3px;}
+.video-body{padding:17px 19px 19px;}
+.video-body h3{font-size:18px;margin:0 0 6px;line-height:1.4;}
+.video-body p{margin:0;font-size:15px;color:var(--ink-2);line-height:1.65;}
+.video-note{
+  margin-top:10px;font-size:13px;color:var(--ink-3);
+}
+
 /* ── 교습비등 게시표 (학원법 게시 항목) ─────────── */
 .notice-board{
   border:2px solid var(--navy);border-radius:var(--r);
@@ -618,8 +659,8 @@ table.price tbody tr:last-child th,table.price tbody tr:last-child td{border-bot
 
 }
 
-/* 가로 메뉴 — 항목이 7개라 960px 부터 한 줄에 들어갑니다 */
-@media (min-width:960px){
+/* 가로 메뉴 — 항목이 많아 1120px 부터 한 줄에 들어갑니다 */
+@media (min-width:1120px){
   .nav-toggle{display:none;}
   .site-nav{
     display:flex;align-items:center;gap:6px;
@@ -636,9 +677,10 @@ table.price tbody tr:last-child th,table.price tbody tr:last-child td{border-bot
   .mobile-cta{display:none;}
   :root{--bar-h:0px;}
 }
-@media (min-width:1240px){
+/* 넉넉한 화면에서만 메뉴 간격을 늘립니다 */
+@media (min-width:1400px){
   .site-nav ul{gap:2px;}
-  .site-nav a{padding:10px 14px;font-size:16px;}
+  .site-nav a{padding:10px 13px;font-size:15.5px;}
 }
 
 @media (min-width:1140px){

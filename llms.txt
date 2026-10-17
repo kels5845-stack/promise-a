@@ -61,6 +61,7 @@
 - [홈](https://promise-a.com/): 교습소 전체 소개
 - [교습소 소개](https://promise-a.com/about.html): 교육 방식과 원칙
 - [커리큘럼·교재](https://promise-a.com/curriculum.html): 루티 잉글리시 자체 교재, 씨앗·잎사귀·꽃·열매 단계, 독해 시스템, 루티 영어 시스템(온라인), 학습 분석
+
 - [초등 영어](https://promise-a.com/elementary.html): 초등 정규반 안내
 - [중·고등 내신](https://promise-a.com/middle.html): 내신 전문 과정 안내
 - [수강료·시간](https://promise-a.com/tuition.html): 교습비와 반환 기준

@@ -447,6 +447,96 @@ table.price tbody tr:last-child th,table.price tbody tr:last-child td{border-bot
 .stage-row span{display:block;font-size:14px;color:var(--ink-3);line-height:1.5;}
 .photo figcaption{padding:13px 17px;font-size:14.5px;font-weight:600;color:var(--ink-2);}
 
+/* ── 교습비등 게시표 (학원법 게시 항목) ─────────── */
+.notice-board{
+  border:2px solid var(--navy);border-radius:var(--r);
+  background:var(--paper);overflow:hidden;
+  padding:0;                     /* section 공통 여백 해제 */
+}
+.notice-board > header{
+  background:var(--navy);color:#fff;padding:14px 20px;
+}
+.notice-board > header h3{
+  margin:0;font-family:var(--serif);font-size:20px;font-weight:700;color:#fff;
+  letter-spacing:.01em;
+}
+.notice-board > header p{
+  margin:4px 0 0;font-size:13px;color:var(--gold-bright);line-height:1.5;
+}
+.notice-meta{
+  display:grid;gap:1px;background:var(--rule);
+  border-bottom:1px solid var(--rule);grid-template-columns:1fr;
+}
+@media (min-width:600px){.notice-meta{grid-template-columns:1fr 1fr;}}
+.notice-meta div{
+  background:var(--paper-2);display:grid;grid-template-columns:88px 1fr;
+  font-size:13.5px;line-height:1.55;
+}
+.notice-meta dt{padding:9px 14px;font-weight:700;color:var(--ink-3);}
+.notice-meta dd{padding:9px 14px;margin:0;background:var(--paper);}
+.notice-board .table-scroll{margin:0;border:0;}
+.notice-board table{width:100%;border-collapse:collapse;font-size:14px;}
+.notice-board th,.notice-board td{
+  padding:10px 12px;border-bottom:1px solid var(--rule);
+  border-right:1px solid var(--rule);text-align:center;white-space:nowrap;
+}
+.notice-board th:last-child,.notice-board td:last-child{border-right:0;}
+.notice-board thead th{
+  background:var(--paper-3);font-weight:700;color:var(--ink-2);font-size:13px;
+}
+.notice-board tbody th{text-align:left;font-weight:700;}
+.notice-board .won{font-variant-numeric:tabular-nums;font-weight:700;color:var(--orange-deep);}
+.notice-board tfoot td{
+  background:var(--paper-2);font-size:13px;color:var(--ink-3);
+  text-align:left;white-space:normal;line-height:1.65;border-bottom:0;
+}
+/* 맨 아래 접어 두는 게시표 — 자리를 적게 차지하도록 */
+.board-details{
+  margin-top:40px;border-top:1px solid var(--rule);padding-top:22px;
+}
+.board-details > summary{
+  cursor:pointer;list-style:none;display:flex;flex-wrap:wrap;align-items:baseline;
+  gap:4px 12px;padding:11px 14px;border:1px solid var(--rule);border-radius:var(--r-sm);
+  background:var(--paper-2);font-size:14px;
+}
+.board-details > summary::-webkit-details-marker{display:none;}
+.board-details > summary::before{
+  content:'▸';color:var(--orange-deep);font-size:12px;margin-right:2px;
+}
+.board-details[open] > summary::before{content:'▾';}
+.board-details > summary strong{color:var(--ink);font-size:14.5px;}
+.board-details > summary span{color:var(--ink-3);font-size:12.5px;line-height:1.5;}
+.board-details > summary:hover{border-color:var(--navy-soft);background:var(--paper-3);}
+.board-details > summary:focus-visible{outline:2px solid var(--orange);outline-offset:2px;}
+.board-body{margin-top:14px;font-size:13px;}
+.board-body .notice-board th,.board-body .notice-board td{padding:7px 10px;font-size:12.5px;}
+.board-body .notice-board thead th{font-size:11.5px;}
+.board-body .notice-board > header{padding:11px 16px;}
+.board-body .notice-board > header h3{font-size:16.5px;}
+.board-body .notice-board > header p{font-size:11.5px;}
+.board-body .notice-meta div{font-size:12.5px;grid-template-columns:76px 1fr;}
+.board-body .notice-meta dt,.board-body .notice-meta dd{padding:7px 11px;}
+.board-body .notice-board tfoot td{font-size:12px;}
+@media print{ .board-details > summary{display:none;} .board-body{margin-top:0;} }
+
+/* 홈에 들어가는 줄임 안내 */
+.notice-mini{
+  display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;
+  border:1px solid var(--rule);border-left:3px solid var(--navy);
+  border-radius:0 var(--r-sm) var(--r-sm) 0;
+  background:var(--paper-2);padding:14px 18px;font-size:14.5px;
+}
+.notice-mini strong{color:var(--ink);}
+.notice-mini span{color:var(--ink-3);}
+.notice-mini a{margin-left:auto;font-weight:700;white-space:nowrap;}
+@media print{
+  .notice-board{border-color:#000;}
+  .notice-board > header{background:#fff !important;color:#000 !important;border-bottom:2px solid #000;}
+  .notice-board > header h3{color:#000 !important;}
+  .notice-board > header p{color:#333 !important;}
+  .notice-board th,.notice-board td{border-color:#999;}
+}
+
 /* ── 이동 경로 ──────────────────────────────────── */
 .breadcrumb{padding:15px 0 0;font-size:14px;color:var(--ink-3);}
 .breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:7px;}

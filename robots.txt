@@ -1,0 +1,50 @@
+# 프라미스A 교습소 — robots.txt
+# 모든 검색엔진 수집 허용
+User-agent: *
+Allow: /
+
+# 네이버
+User-agent: Yeti
+Allow: /
+
+# 다음(카카오)
+User-agent: Daum
+Allow: /
+User-agent: Daumoa
+Allow: /
+
+# 빙 / 마이크로소프트
+User-agent: bingbot
+Allow: /
+
+# ── AI 검색·생성형 엔진 (GEO: 답변에 인용되도록 허용) ──
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://kels5845-stack.github.io/promise-a/sitemap.xml

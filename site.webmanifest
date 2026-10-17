@@ -1,0 +1,29 @@
+{
+  "name": "프라미스A 교습소",
+  "short_name": "프라미스A",
+  "description": "초·중등 전문 영어 교습소. 라이팅·독해·문해력 집중 훈련.",
+  "start_url": "/promise-a/",
+  "scope": "/promise-a/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f2745",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "/promise-a/assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/promise-a/assets/img/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/promise-a/assets/img/favicon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ]
+}

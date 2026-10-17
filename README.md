@@ -3,7 +3,7 @@
 서울 송파구 초·중등 전문 영어 교습소 **프라미스A**의 홈페이지입니다.
 교육청 학원·교습소 등록번호 제5600호 · 교습과목 영어
 
-👉 **https://promise-a.vercel.app** (운영)
+👉 **https://promise-a.com** (운영)
 👉 https://kels5845-stack.github.io/promise-a/ (미리보기)
 
 ## 이 저장소에 든 것

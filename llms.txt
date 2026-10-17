@@ -14,16 +14,16 @@
 - 주소: 서울특별시 송파구 송파대로37길 52, 3층
 - 전화: 02-6013-0579
 - 운영시간: 오후 2시 ~ 9시
-- 홈페이지: https://promise-a.vercel.app/
+- 홈페이지: https://promise-a.com/
 - 네이버 블로그: https://blog.naver.com/promise6013
 - 카카오톡 채널: https://pf.kakao.com/_Xexenxj/chat
 
 
 ## 수업 과정과 수강료
 
-- 초등 4학년반: 월·수·금 주 3회, 오후 2시 시작, 회당 130분, 월 교습비 310,000원 (https://promise-a.vercel.app/elementary.html)
-- 초등 5~6학년반: 월·수·금 주 3회, 오후 3시 시작, 회당 150분, 월 교습비 350,000원 (https://promise-a.vercel.app/elementary.html)
-- 중등 내신반: 월·수·금 주 3회, 오후 4시 시작, 회당 180분, 월 교습비 400,000원 (https://promise-a.vercel.app/middle.html)
+- 초등 4학년반: 월·수·금 주 3회, 오후 2시 시작, 회당 130분, 월 교습비 310,000원 (https://promise-a.com/elementary.html)
+- 초등 5~6학년반: 월·수·금 주 3회, 오후 3시 시작, 회당 150분, 월 교습비 350,000원 (https://promise-a.com/elementary.html)
+- 중등 내신반: 월·수·금 주 3회, 오후 4시 시작, 회당 180분, 월 교습비 400,000원 (https://promise-a.com/middle.html)
 - 고등 내신반: 학년·과정에 따라 편성, 수강료는 상담 시 안내
 - 교재는 자체 제작한 '루티 잉글리시'를 쓰며, 첫 수업 후 학생 상태에 맞는 단계를 정해 구매 링크를 보내 학부모가 직접 구매합니다.
 - 중등부는 정규 과정으로만 운영하며, 시험 기간에만 내신 대비를 수강할 수는 없습니다.
@@ -38,7 +38,7 @@
 - 면학 분위기를 엄격하게 지키며, 학습태도가 준비되지 않은 학생은 다니기 어렵습니다.
 - 중·고등은 학교 시험 범위를 문장 단위로 확인하는 내신 전문 지도.
 
-## 자체 교재와 커리큘럼 — 루티 잉글리시 (https://promise-a.vercel.app/curriculum.html)
+## 자체 교재와 커리큘럼 — 루티 잉글리시 (https://promise-a.com/curriculum.html)
 
 - 프라미스A 교습소는 '루티 잉글리시(ROOTI ENGLISH)'라는 이름으로 교재와 온라인 시스템을 직접 만들어 씁니다.
 - 교재는 세 갈래입니다. 루티 리딩(짧은 글, 소리 내어 읽기), 루티 문법(문장 확장에서 분사·관계사까지 STEP), 수행평가 트레이닝(국어로 쓰기 → 빈칸 → 전체 라이팅).
@@ -50,7 +50,7 @@
 
 ## 상담 신청 방법
 
-1. 홈페이지 상담 신청 페이지(https://promise-a.vercel.app/contact.html)에서 학생 이름과 휴대폰 번호를 입력합니다.
+1. 홈페이지 상담 신청 페이지(https://promise-a.com/contact.html)에서 학생 이름과 휴대폰 번호를 입력합니다.
 2. 입력한 번호로 상담신청서 링크가 담긴 카카오톡 알림톡이 자동 발송됩니다.
 3. 알림톡 안의 링크에서 상담신청서를 작성하면 접수 확인 알림톡이 자동 발송됩니다.
 4. 교습소가 상담 일시를 정해 일시와 상담 시 준비 내용을 알림톡으로 보냅니다.
@@ -58,12 +58,12 @@
 
 ## 주요 페이지
 
-- [홈](https://promise-a.vercel.app/): 교습소 전체 소개
-- [교습소 소개](https://promise-a.vercel.app/about.html): 교육 방식과 원칙
-- [커리큘럼·교재](https://promise-a.vercel.app/curriculum.html): 루티 잉글리시 자체 교재, 씨앗·잎사귀·꽃·열매 단계, 독해 시스템, 루티 영어 시스템(온라인), 학습 분석
-- [초등 영어](https://promise-a.vercel.app/elementary.html): 초등 정규반 안내
-- [중·고등 내신](https://promise-a.vercel.app/middle.html): 내신 전문 과정 안내
-- [수강료·시간](https://promise-a.vercel.app/tuition.html): 교습비와 반환 기준
-- [자주 묻는 질문](https://promise-a.vercel.app/faq.html): 학부모 FAQ
-- [상담 신청](https://promise-a.vercel.app/contact.html): 상담 신청 폼
-- [개인정보 처리방침](https://promise-a.vercel.app/privacy.html)
+- [홈](https://promise-a.com/): 교습소 전체 소개
+- [교습소 소개](https://promise-a.com/about.html): 교육 방식과 원칙
+- [커리큘럼·교재](https://promise-a.com/curriculum.html): 루티 잉글리시 자체 교재, 씨앗·잎사귀·꽃·열매 단계, 독해 시스템, 루티 영어 시스템(온라인), 학습 분석
+- [초등 영어](https://promise-a.com/elementary.html): 초등 정규반 안내
+- [중·고등 내신](https://promise-a.com/middle.html): 내신 전문 과정 안내
+- [수강료·시간](https://promise-a.com/tuition.html): 교습비와 반환 기준
+- [자주 묻는 질문](https://promise-a.com/faq.html): 학부모 FAQ
+- [상담 신청](https://promise-a.com/contact.html): 상담 신청 폼
+- [개인정보 처리방침](https://promise-a.com/privacy.html)

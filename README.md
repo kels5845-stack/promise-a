@@ -15,7 +15,7 @@
 |---|---|
 | `index.html` | 홈 |
 | `about.html` | 교습소 소개 |
-| `curriculum.html` | 커리큘럼 · 교재 (루티 잉글리시) |
+| `curriculum.html` | 커리큘럼 · 교재 (자체 교재) |
 | `elementary.html` | 초등 영어 정규반 |
 | `middle.html` | 중·고등 내신반 |
 | `tuition.html` | 수강료 · 수업 시간 |

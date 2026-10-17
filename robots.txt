@@ -47,4 +47,4 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://kels5845-stack.github.io/promise-a/sitemap.xml
+Sitemap: https://promise-a.vercel.app/sitemap.xml

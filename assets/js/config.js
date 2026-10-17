@@ -6,7 +6,7 @@
 window.SITE_CONFIG = {
   /* 기본 정보 */
   name: '프라미스A 교습소',
-  url: 'https://kels5845-stack.github.io/promise-a',          // 실제 도메인으로 교체
+  url: 'https://promise-a.vercel.app',          // 실제 도메인으로 교체
   tel: '02-6013-0579',                    // 실제 전화번호로 교체 (하이픈 포함)
   address: '서울특별시 송파구 송파대로37길 52, 3층',       // 실제 주소로 교체 (챗봇 답변에 사용)
   hours: '오후 2시 ~ 9시',              // 실제 운영시간으로 교체 (챗봇 답변에 사용)

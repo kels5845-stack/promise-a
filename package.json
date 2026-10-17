@@ -1,0 +1,7 @@
+{
+  "name": "promise-a-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "프라미스A 교습소 홈페이지 (정적 사이트 + 상담 알림톡 서버리스 함수)"
+}

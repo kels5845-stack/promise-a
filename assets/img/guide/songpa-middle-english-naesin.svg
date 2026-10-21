@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-labelledby="t d">
+  <title id="t">중등 내신, 확인하고 다지는 흐름</title>
+  <desc id="d">시험 범위(교과서·부교재)를 문장 단위로 확인한다. 기준을 넘지 못하면 다시 확인하고, 넘으면 다음 범위로 간다. 서술형은 평소 라이팅 훈련으로 대비한다.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#14294a"/>
+    </marker>
+  </defs>
+  <rect width="720" height="340" fill="#fdf8f0"/>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" fill="#161b22">
+    <text x="360" y="40" font-size="22" font-weight="700" text-anchor="middle">중등 내신, 확인하고 다지는 흐름</text>
+
+    <rect x="30" y="80" width="170" height="80" rx="12" fill="#ffffff" stroke="#e7dac2" stroke-width="2"/>
+    <text x="115" y="114" font-size="17" font-weight="700" text-anchor="middle">시험 범위</text>
+    <text x="115" y="140" font-size="14" text-anchor="middle" fill="#5a6270">교과서 · 부교재</text>
+
+    <rect x="250" y="80" width="170" height="80" rx="12" fill="#ffffff" stroke="#14294a" stroke-width="2"/>
+    <text x="335" y="114" font-size="17" font-weight="700" text-anchor="middle">문장 단위 확인</text>
+    <text x="335" y="140" font-size="14" text-anchor="middle" fill="#5a6270">문법 포인트 정리</text>
+
+    <rect x="470" y="80" width="220" height="80" rx="12" fill="#14294a"/>
+    <text x="580" y="114" font-size="17" font-weight="700" text-anchor="middle" fill="#ffffff">기준 통과</text>
+    <text x="580" y="140" font-size="14" text-anchor="middle" fill="#e7dac2">다음 범위로</text>
+
+    <line x1="200" y1="120" x2="246" y2="120" stroke="#14294a" stroke-width="2.5" marker-end="url(#a)"/>
+    <line x1="420" y1="120" x2="466" y2="120" stroke="#14294a" stroke-width="2.5" marker-end="url(#a)"/>
+
+    <rect x="250" y="200" width="170" height="56" rx="12" fill="#ffffff" stroke="#c2551c" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="335" y="226" font-size="15" font-weight="700" text-anchor="middle" fill="#c2551c">못 넘으면 다시 확인</text>
+    <text x="335" y="246" font-size="13" text-anchor="middle" fill="#5a6270">틀린 이유를 설명할 때까지</text>
+    <line x1="300" y1="164" x2="300" y2="196" stroke="#c2551c" stroke-width="2" marker-end="url(#a)"/>
+    <line x1="370" y1="196" x2="370" y2="166" stroke="#c2551c" stroke-width="2" marker-end="url(#a)"/>
+
+    <rect x="30" y="282" width="660" height="40" rx="10" fill="#ffffff" stroke="#e7dac2" stroke-width="2"/>
+    <text x="360" y="308" font-size="14" text-anchor="middle">서술형·수행평가 ← 평소 라이팅 훈련 (국어로 쓰기 → 빈칸 → 전체 라이팅)</text>
+  </g>
+</svg>

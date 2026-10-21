@@ -47,3 +47,24 @@ Vercel에서만 동작합니다. 깃헙 페이지에는 서버가 없어 화면�
 
 페이지를 만드는 생성 스크립트는 비공개 저장소에 있습니다.
 내용을 고칠 때는 그쪽에서 다시 만들어 이곳에 올립니다.
+
+## 사이티드가 이 저장소에서 직접 고친 것 (2026-10-21)
+
+생성 스크립트를 거치지 않고 이 저장소에서 바로 고쳤습니다.
+
+새로 만든 파일
+- `songpa-english-gyoseupso.html` — 송파 영어교습소, 학원과 뭐가 다른가요?
+- `songpa-middle-english-naesin.html` — 송파 중등 영어학원, 시험 기간에만 다닐 수 있나요?
+- `songpa-elementary-english-cost.html` — 송파 초등 영어학원 비용은 얼마인가요?
+- `songpa-english-academy-choose.html` — 송파 영어학원 잘하는 곳, 상담 때 무엇을 물어봐야 하나요?
+- `assets/img/guide/` — 위 네 쪽의 도해 SVG 4개
+
+고친 파일
+- `index.html` `about.html` `curriculum.html` `elementary.html` `middle.html` `tuition.html` `faq.html` `contact.html` — 제목·설명·공유 문구에 「송파」
+- 위 8개와 `privacy.html` `landing.html` `404.html` — 구조화 정보(기관)에 서비스 지역(서울특별시 송파구)과 sameAs(블로그·카카오톡 채널)
+- `faq.html` — 질문 5개 추가(17 → 22), 화면과 구조화 정보 둘 다
+- `index.html` `curriculum.html` `middle.html` `elementary.html` `tuition.html` — 질문 쪽으로 가는 링크
+- `sitemap.xml` — 새 4쪽, 고친 쪽 날짜
+- `llms.txt` — 「학부모 질문 안내」 절과 주요 페이지 4줄
+
+**생성 스크립트로 다시 만들면 이 변경이 사라집니다. 생성 스크립트에도 옮겨 주세요.**

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" width="720" height="270" role="img" aria-labelledby="t d">
+  <title id="t">월·수·금 초등 반별 시작 시각과 수업 시간</title>
+  <desc id="d">초등 4학년반 오후 2시 시작 130분, 월 310,000원. 초등 5~6학년반 오후 3시 시작 150분, 월 350,000원. 운영시간 오후 2시~9시.</desc>
+  <rect width="720" height="270" fill="#fdf8f0"/>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" fill="#161b22">
+    <text x="360" y="40" font-size="22" font-weight="700" text-anchor="middle">월·수·금 초등 반별 시작 시각과 수업 시간</text>
+
+    <g stroke="#e7dac2" stroke-width="1">
+      <line x1="130" y1="70" x2="130" y2="205"/>
+      <line x1="210" y1="70" x2="210" y2="205"/>
+      <line x1="290" y1="70" x2="290" y2="205"/>
+      <line x1="370" y1="70" x2="370" y2="205"/>
+      <line x1="450" y1="70" x2="450" y2="205"/>
+      <line x1="530" y1="70" x2="530" y2="205"/>
+      <line x1="610" y1="70" x2="610" y2="205"/>
+      <line x1="690" y1="70" x2="690" y2="205"/>
+    </g>
+
+    <text x="20" y="114" font-size="16" font-weight="700">초등 4학년</text>
+    <rect x="130" y="90" width="173.3" height="38" rx="6" fill="#c2551c"/>
+    <text x="216.6" y="115" font-size="15" font-weight="700" text-anchor="middle" fill="#ffffff">130분</text>
+    <text x="314" y="115" font-size="15" font-weight="700">310,000원</text>
+
+    <text x="20" y="179" font-size="16" font-weight="700">초등 5~6학년</text>
+    <rect x="210" y="155" width="200" height="38" rx="6" fill="#c2551c"/>
+    <text x="310" y="180" font-size="15" font-weight="700" text-anchor="middle" fill="#ffffff">150분</text>
+    <text x="421" y="180" font-size="15" font-weight="700">350,000원</text>
+
+    <g font-size="14" fill="#5a6270" text-anchor="middle">
+      <text x="130" y="227">오후 2시</text>
+      <text x="210" y="227">3시</text>
+      <text x="290" y="227">4시</text>
+      <text x="370" y="227">5시</text>
+      <text x="450" y="227">6시</text>
+      <text x="530" y="227">7시</text>
+      <text x="610" y="227">8시</text>
+      <text x="690" y="227">9시</text>
+    </g>
+    <text x="360" y="255" font-size="13" text-anchor="middle" fill="#5a6270">월 교습비 · 주 3회 · 운영시간 오후 2시~9시 · 교재비 별도</text>
+  </g>
+</svg>

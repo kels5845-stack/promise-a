@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-labelledby="t d">
+  <title id="t">학원과 교습소, 법에 적힌 차이</title>
+  <desc id="d">학원을 가르는 기준 수는 같은 시간 10명(시행령 제2조 제2항). 교습소는 같은 시간 9명 이하(시행령 제16조), 교습자 1명이 한 장소에서 1과목(법 제14조 제7항). 프라미스A는 등록번호 제5600호, 교습과목 영어인 교습소. 교육청에 신고한 반 정원 7명.</desc>
+  <rect width="720" height="380" fill="#fdf8f0"/>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" fill="#161b22">
+    <text x="360" y="42" font-size="22" font-weight="700" text-anchor="middle">학원과 교습소, 법에 적힌 차이</text>
+
+    <rect x="40" y="70" width="300" height="190" rx="14" fill="#ffffff" stroke="#e7dac2" stroke-width="2"/>
+    <text x="190" y="108" font-size="21" font-weight="700" text-anchor="middle" fill="#14294a">학원</text>
+    <text x="190" y="158" font-size="19" font-weight="700" text-anchor="middle">기준 수 같은 시간 10명</text>
+    <text x="190" y="186" font-size="14" text-anchor="middle" fill="#5a6270">시행령 제2조 제2항</text>
+    <text x="190" y="228" font-size="15" text-anchor="middle" fill="#5a6270">또는 불특정다수 · 30일 이상 교습 (법 제2조)</text>
+
+    <rect x="380" y="70" width="300" height="190" rx="14" fill="#ffffff" stroke="#c2551c" stroke-width="2.5"/>
+    <text x="530" y="108" font-size="21" font-weight="700" text-anchor="middle" fill="#c2551c">교습소</text>
+    <text x="530" y="152" font-size="19" font-weight="700" text-anchor="middle">같은 시간 9명 이하</text>
+    <text x="530" y="176" font-size="14" text-anchor="middle" fill="#5a6270">시행령 제16조 · 9명은 상한</text>
+    <text x="530" y="214" font-size="19" font-weight="700" text-anchor="middle">교습자 1명 · 1과목</text>
+    <text x="530" y="238" font-size="14" text-anchor="middle" fill="#5a6270">법 제14조 제7항</text>
+
+    <rect x="40" y="284" width="640" height="64" rx="12" fill="#14294a"/>
+    <text x="360" y="314" font-size="18" font-weight="700" text-anchor="middle" fill="#ffffff">프라미스A 교습소 — 등록번호 제5600호 · 교습과목 영어</text>
+    <text x="360" y="337" font-size="14" text-anchor="middle" fill="#e7dac2">교육청에 신고한 반 정원 7명 · 지금 실제 인원은 상담에서 안내</text>
+  </g>
+</svg>

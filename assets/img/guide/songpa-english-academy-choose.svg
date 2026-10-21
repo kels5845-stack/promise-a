@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-labelledby="t d">
+  <title id="t">영어학원 상담에서 물을 네 가지</title>
+  <desc id="d">넘어가는 기준이 있나, 과제를 어떻게 확인하나, 상담에 학생도 오나, 시험 기간에만 받나. 프라미스A의 답: 기준을 못 넘으면 안 넘어감, 다음 수업 확인 학습에서 확인, 학생이 함께 와야 함, 중등은 정규 과정만.</desc>
+  <rect width="720" height="400" fill="#fdf8f0"/>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" fill="#161b22">
+    <text x="360" y="40" font-size="22" font-weight="700" text-anchor="middle">상담에서 물을 네 가지</text>
+
+    <rect x="30" y="66" width="320" height="146" rx="14" fill="#ffffff" stroke="#e7dac2" stroke-width="2"/>
+    <circle cx="62" cy="100" r="16" fill="#14294a"/>
+    <text x="62" y="106" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">1</text>
+    <text x="88" y="106" font-size="18" font-weight="700">넘어가는 기준이 있나</text>
+    <line x1="50" y1="134" x2="330" y2="134" stroke="#e7dac2"/>
+    <text x="50" y="164" font-size="14" fill="#c2551c" font-weight="700">프라미스A</text>
+    <text x="50" y="188" font-size="15">기준을 못 넘으면 다음으로 안 넘어감</text>
+
+    <rect x="370" y="66" width="320" height="146" rx="14" fill="#ffffff" stroke="#e7dac2" stroke-width="2"/>
+    <circle cx="402" cy="100" r="16" fill="#14294a"/>
+    <text x="402" y="106" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">2</text>
+    <text x="428" y="106" font-size="18" font-weight="700">과제를 어떻게 확인하나</text>
+    <line x1="390" y1="134" x2="670" y2="134" stroke="#e7dac2"/>
+    <text x="390" y="164" font-size="14" fill="#c2551c" font-weight="700">프라미스A</text>
+    <text x="390" y="188" font-size="15">다음 수업 확인 학습 · 태도 기록</text>
+
+    <rect x="30" y="228" width="320" height="146" rx="14" fill="#ffffff" stroke="#e7dac2" stroke-width="2"/>
+    <circle cx="62" cy="262" r="16" fill="#14294a"/>
+    <text x="62" y="268" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">3</text>
+    <text x="88" y="268" font-size="18" font-weight="700">상담에 학생도 오나</text>
+    <line x1="50" y1="296" x2="330" y2="296" stroke="#e7dac2"/>
+    <text x="50" y="326" font-size="14" fill="#c2551c" font-weight="700">프라미스A</text>
+    <text x="50" y="350" font-size="15">학생 동반 · 쓰던 교재를 가져옴</text>
+
+    <rect x="370" y="228" width="320" height="146" rx="14" fill="#ffffff" stroke="#e7dac2" stroke-width="2"/>
+    <circle cx="402" cy="262" r="16" fill="#14294a"/>
+    <text x="402" y="268" font-size="16" font-weight="700" text-anchor="middle" fill="#ffffff">4</text>
+    <text x="428" y="268" font-size="18" font-weight="700">시험 기간에만 받나</text>
+    <line x1="390" y1="296" x2="670" y2="296" stroke="#e7dac2"/>
+    <text x="390" y="326" font-size="14" fill="#c2551c" font-weight="700">프라미스A</text>
+    <text x="390" y="350" font-size="15">중등은 정규 과정만</text>
+  </g>
+</svg>

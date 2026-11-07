@@ -978,3 +978,12 @@ body.exit-open .mobile-cta{display:none !important;}
   .book{min-height:104px;padding:10px 11px;}
   .book b{font-size:14.5px;}
 }
+
+.roadmap-figure{margin:22px 0 0;}
+.roadmap-figure img{
+  display:block;width:100%;height:auto;
+  border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);
+}
+.roadmap-figure figcaption{
+  margin-top:9px;font-size:13.5px;color:var(--ink-3);
+}

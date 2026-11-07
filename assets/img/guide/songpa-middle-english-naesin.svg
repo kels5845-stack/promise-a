@@ -32,6 +32,6 @@
     <line x1="370" y1="196" x2="370" y2="166" stroke="#c2551c" stroke-width="2" marker-end="url(#a)"/>
 
     <rect x="30" y="282" width="660" height="40" rx="10" fill="#ffffff" stroke="#e7dac2" stroke-width="2"/>
-    <text x="360" y="308" font-size="14" text-anchor="middle">서술형·수행평가 ← 평소 라이팅 훈련 (국어로 쓰기 → 빈칸 → 전체 라이팅)</text>
+    <text x="360" y="308" font-size="14" text-anchor="middle">서술형 ← 평소 라이팅 훈련 (국어로 쓰기 → 빈칸 → 전체 라이팅)</text>
   </g>
 </svg>

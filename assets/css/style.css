@@ -937,6 +937,27 @@ body.exit-open .mobile-cta{display:none !important;}
 .book-legend .lg-head{font-weight:700;color:var(--ink-2);}
 .book-legend .lg-head::before{display:none;}
 
+/* 흰 표지 · 테두리와 글씨만 색 — 흰 바탕과 종이색(#fdf8f0) 양쪽에서
+   대비 4.5:1 이상(AA)이 되도록 계산해 정한 값입니다. 밝히면 글씨가 안 읽힙니다. */
+.lg--e-culture{--bk:#b2572a;}
+.lg--e-reading{--bk:#257e70;}
+.lg--e-basic{--bk:#1c7a9c;}
+.lg--e-voca{--bk:#c93662;}
+.lg--e-writing{--bk:#916818;}
+.lg--m-concept{--bk:#416ec8;}
+.lg--m-reading{--bk:#257e55;}
+.lg--m-voca{--bk:#b84e2e;}
+.lg--m-writing{--bk:#8f57b7;}
+.book--e-culture{--bk:#b2572a;}
+.book--e-reading{--bk:#257e70;}
+.book--e-basic{--bk:#1c7a9c;}
+.book--e-voca{--bk:#c93662;}
+.book--e-writing{--bk:#916818;}
+.book--m-concept{--bk:#416ec8;}
+.book--m-reading{--bk:#257e55;}
+.book--m-voca{--bk:#b84e2e;}
+.book--m-writing{--bk:#8f57b7;}
+
 .book-shelf{
   list-style:none;display:grid;gap:10px;margin:14px 0 0;padding:0 0 12px;
   grid-template-columns:repeat(2,1fr);
@@ -948,45 +969,24 @@ body.exit-open .mobile-cta{display:none !important;}
 .book{
   display:flex;flex-direction:column;gap:5px;
   min-height:118px;padding:12px 13px 11px;
-  border-radius:4px 9px 9px 4px;          /* 왼쪽이 책등 */
-  border-left:5px solid rgba(0,0,0,.26);
-  background:var(--bk);color:var(--bt,#fff);
-  box-shadow:0 2px 5px rgba(26,32,44,.2);
+  border-radius:3px 9px 9px 3px;
+  border:1.5px solid var(--bk);
+  border-left:6px solid var(--bk);
+  background:#ffffff;color:var(--bk);
+  box-shadow:0 1px 3px rgba(26,32,44,.09);
 }
-/* 초등 = 오렌지·민트·진한 민트·핑크·노랑 / 중등 = 네이비·그린·오렌지·보라 */
-/* 글자색까지 흰·검정 대비 4.5:1 이상으로 계산해 정했습니다 — 임의로 바꾸지 마세요 */
-.lg--e-culture{--bk:#af6017;}
-.lg--e-reading{--bk:#63d7c7;}
-.lg--e-basic{--bk:#0d6e66;}
-.lg--e-voca{--bk:#e11f58;}
-.lg--e-writing{--bk:#f5c518;}
-.lg--m-concept{--bk:#23407a;}
-.lg--m-reading{--bk:#1f8551;}
-.lg--m-voca{--bk:#b75c1a;}
-.lg--m-writing{--bk:#7b4bc4;}
-.book--e-culture{--bk:#af6017;--bt:#ffffff;}
-.book--e-reading{--bk:#63d7c7;--bt:#1a2028;}
-.book--e-basic{--bk:#0d6e66;--bt:#ffffff;}
-.book--e-voca{--bk:#e11f58;--bt:#ffffff;}
-.book--e-writing{--bk:#f5c518;--bt:#1a2028;}
-.book--m-concept{--bk:#23407a;--bt:#ffffff;}
-.book--m-reading{--bk:#1f8551;--bt:#ffffff;}
-.book--m-voca{--bk:#b75c1a;--bt:#ffffff;}
-.book--m-writing{--bk:#7b4bc4;--bt:#ffffff;}
-
 .book-kind{
-  font-size:9.5px;font-weight:700;letter-spacing:.07em;
-  color:var(--bt,#fff);opacity:.82;
+  font-size:9.5px;font-weight:700;letter-spacing:.07em;color:var(--bk);
 }
 .book b{
   font-family:var(--serif);font-size:16px;line-height:1.3;
-  color:var(--bt,#fff);word-break:keep-all;
+  color:var(--bk);word-break:keep-all;
 }
 .book-range{
   margin-top:auto;align-self:flex-start;
   padding:2px 9px;border-radius:999px;
-  background:rgba(255,255,255,.26);
-  font-size:11.5px;font-weight:600;color:var(--bt,#fff);
+  border:1px solid var(--bk);
+  font-size:11.5px;font-weight:600;color:var(--bk);
 }
 @media (max-width:420px){
   .book{min-height:104px;padding:10px 11px;}

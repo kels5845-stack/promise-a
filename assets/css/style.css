@@ -919,7 +919,11 @@ body.exit-open .mobile-cta{display:none !important;}
 .road-map .road-tags li::before,
 .road-map .road-tags li::after{content:none;display:none;}
 /* 교재가 6개라 3칸씩 두 줄로 — 4칸이면 끝에 빈 칸이 남습니다 */
-@media (min-width:640px){.road-books{grid-template-columns:repeat(3,1fr);}}
+@media (min-width:640px){.road-books{grid-template-columns:repeat(3,1fr);}
+  /* 교재가 7개면 마지막 한 장이 혼자 남습니다 — 남은 칸만큼 펴 줍니다 */
+  .road-books > div:last-child:nth-child(3n+1){grid-column:span 3;}
+  .road-books > div:last-child:nth-child(3n+2){grid-column:span 2;}}
+@media (max-width:639px){.road-books > div:last-child:nth-child(odd){grid-column:span 2;}}
 .pill-row{
   list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;
 }

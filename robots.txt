@@ -1,4 +1,4 @@
-# 프라미스A 교습소 — robots.txt
+# 프라미스A 영어교습소 — robots.txt
 # 모든 검색엔진 수집 허용
 User-agent: *
 Allow: /

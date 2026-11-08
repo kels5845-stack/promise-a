@@ -435,7 +435,7 @@ table.price tbody tr:last-child th,table.price tbody tr:last-child td{border-bot
 .photo--book figcaption span{display:block;font-size:13.5px;font-weight:500;color:var(--ink-3);line-height:1.5;}
 .book-grid{display:grid;gap:16px;grid-template-columns:repeat(2,1fr);}
 @media (min-width:700px){.book-grid{grid-template-columns:repeat(3,1fr);gap:20px;}}
-/* 단계 띠 — 씨앗에서 열매까지 */
+/* 단계 띠 — 씨드에서 프룻까지 */
 .stage-row{
   display:grid;gap:1px;background:var(--rule);
   border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;

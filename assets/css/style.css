@@ -260,7 +260,7 @@ section{padding:58px 0;}
 .grid{display:grid;gap:16px;}
 .grid-2,.grid-3,.grid-4{grid-template-columns:1fr;}
 
-/* 큰 세리프 숫자 — 원칙·순서를 시각적으로 구분 */
+/* 큰 세Leaf 숫자 — 원칙·순서를 시각적으로 구분 */
 .card-num{
   display:block;font-family:var(--serif);font-weight:700;
   font-size:27px;line-height:1;color:var(--orange-deep);
@@ -435,7 +435,7 @@ table.price tbody tr:last-child th,table.price tbody tr:last-child td{border-bot
 .photo--book figcaption span{display:block;font-size:13.5px;font-weight:500;color:var(--ink-3);line-height:1.5;}
 .book-grid{display:grid;gap:16px;grid-template-columns:repeat(2,1fr);}
 @media (min-width:700px){.book-grid{grid-template-columns:repeat(3,1fr);gap:20px;}}
-/* 단계 띠 — 씨드에서 프룻까지 */
+/* 단계 띠 — Seed에서 Fruit까지 */
 .stage-row{
   display:grid;gap:1px;background:var(--rule);
   border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;

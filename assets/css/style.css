@@ -45,7 +45,7 @@
   --wrap-narrow:780px;
   --r:12px;
   --r-sm:8px;
-  --bar-h:64px;             /* 모바일 하단 고정바 높이 */
+  --bar-h:135px;            /* 모바일 하단 고정바 높이 (💬 1차 상담 한 줄 + 단추 줄) */
 
   color-scheme:light;
 }
@@ -625,11 +625,14 @@ table.price tbody tr:last-child th,table.price tbody tr:last-child td{border-bot
 /* ── 모바일 하단 고정바 ─────────────────────────── */
 .mobile-cta{
   position:fixed;left:0;right:0;bottom:0;z-index:90;
-  display:flex;gap:9px;padding:9px 13px calc(9px + env(safe-area-inset-bottom));
+  display:flex;flex-wrap:wrap;gap:9px;padding:9px 13px calc(9px + env(safe-area-inset-bottom));
   background:rgba(255,255,255,.97);border-top:1px solid var(--rule);
   box-shadow:0 -8px 22px -14px rgba(12,35,64,.45);
 }
 .mobile-cta .btn{flex:1;min-height:48px;padding:12px 10px;font-size:15.5px;border-radius:var(--r-sm);}
+/* 💬 1차 상담 — 휴대폰에서는 글이 길어 한 줄을 통째로 씁니다.
+   한 줄에 넷을 밀어 넣으면 글자가 잘립니다. */
+.mobile-cta .btn-rooti-bar{flex:1 0 100%;min-height:44px;font-size:15px;}
 
 /* ── 반응형 ─────────────────────────────────────── */
 @media (min-width:600px){
